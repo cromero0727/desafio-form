@@ -1,5 +1,6 @@
 let mensajealerta = document.getElementsByClassName("mensaje_alerta");
 
+
 function validar() {
     var nombre, apellido, correo, usuario, pass, telefono, expresion;
     nombre = document.getElementById("nombre").value;
