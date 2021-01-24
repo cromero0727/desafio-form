@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafio Formulario</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Formulario de Registro</h1>
+    <div class="contform">
+        <form action="" onsubmit="return validar();">
+            <div class="contform__formulario">
+                <input type="text" id="nombre" name="nombre" class="contform__formulario__input" placeholder="Nombre">
+                <span class="mensaje_alerta"></span>
+                <input type="text" id="apellidos" class="contform__formulario__input" placeholder="Apellidos">
+                <span class="mensaje_alerta"></span>
+                <input type="email" id="correo" class="contform__formulario__input" placeholder="Correo">
+                <span class="mensaje_alerta"></span>
+                <input type="text" id="usuario" class="contform__formulario__input" placeholder="Usuario">
+                <span class="mensaje_alerta"></span>
+                <input type="password" id="pass" class="contform__formulario__input" placeholder="Contraseña">
+                <span class="mensaje_alerta"></span>
+                <input type="text" id="telefono" class="contform__formulario__input" placeholder="Telefono (Ej: 912345678)">
+                <span class="mensaje_alerta"></span>
+
+                <button id="registrar" class="btn-registrar" type="submit" value="Registrar">Registrar</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <script type="" src="script.js"></script>
+</body>
+
+</html>
